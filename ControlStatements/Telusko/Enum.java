@@ -15,7 +15,7 @@ public class Enum {
 
         //     System.out.println(s + ": " + s.ordinal());
 
-        Status s = Status.Success;
+        Status s = Status.Failed;
 
         if (s ==Status.Success){
             System.out.println("It's Ready!!!");
