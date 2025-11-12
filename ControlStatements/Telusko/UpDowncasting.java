@@ -22,7 +22,7 @@ public class UpDowncasting {
 
     public static void main(String[] args) {
 
-  A up = new B(); // upcasting
+  A up = new B(); // upcasting or autoboxing from low to higher data
   up.show1();
 
    B downcasting = (B) up;// downcasting
